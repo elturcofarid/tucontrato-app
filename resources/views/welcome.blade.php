@@ -6,13 +6,16 @@
 
         <title>Laravel</title>
 
+        @livewireStyles
+
       
     </head>
     <body >
         
         <h1>Hello, {{ $name }}</h1>
 
-        @livewire('search-users')
-        
+        <livewire:counter /> 
+
+        @livewireScripts
     </body>
 </html>
