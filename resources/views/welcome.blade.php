@@ -15,6 +15,7 @@
         <h1>Hello, {{ $name }}</h1>
 
         <livewire:counter /> 
+        <livewire:counter /> 
 
         @livewireScripts
     </body>
