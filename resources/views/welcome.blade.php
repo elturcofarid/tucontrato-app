@@ -10,8 +10,6 @@
     </head>
     <body >
         
-        <x-alert type="success">
-            ¡Operación completada con éxito!
-        </x-alert>
+        <h1>Hello, {{ $name }}</h1>
     </body>
 </html>
