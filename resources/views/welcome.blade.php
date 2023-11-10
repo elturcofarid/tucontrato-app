@@ -10,9 +10,8 @@
     </head>
     <body >
         
-            <div class="alert alert-">
-                fido dido
-            </div>
-        
+        <x-alert type="success">
+            ¡Operación completada con éxito!
+        </x-alert>
     </body>
 </html>
