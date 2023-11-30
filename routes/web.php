@@ -1,9 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserController;
-use App\Http\Controllers\LawyerController;
-use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,12 +14,5 @@ use App\Http\Controllers\DashboardController;
 */
 
 Route::get('/', function () {
-    return view('welcome', ["name" => "fido"]) ;
+    return view('welcome');
 });
-
-
-
-
-Route::resource('/user2', UserController::class);
-
-Route::resource('/r', DashboardController::class);
